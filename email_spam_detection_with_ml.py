@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import pandas as pd
 import re
 import nltk
@@ -127,12 +124,7 @@ def clean_text(text):
 import nltk
 nltk.download('punkt')
 
-# Commented out IPython magic to ensure Python compatibility.
-# %%time
-# 
-# tqdm.pandas()
-# 
-# df['cleaned_text'] = df['v2'].progress_apply(clean_text)
+
 
 """# 2. Feature Extraction"""
 
